@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="465px" height="85px" viewBox="0 0 465 85" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>SCOUT</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+      <style>
+        #logoText {
+          stroke-dasharray: 500;
+          stroke-dashoffset: 200;
+          -webkit-animation: dash 2.5s linear forwards;
+          -o-animation: dash 2.5s linear forwards;
+          -moz-animation: dash 2.5s linear forwards;
+          animation: dash 2.5s linear forwards;
+        }
+
+        @-webkit-keyframes dash {
+          from {
+            stroke-dashoffset: 500;
+          }
+          to {
+            stroke-dashoffset: 0;
+          }
+        }
+      </style>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal" font-family="Phosphate-Inline, Phosphate" letter-spacing="32.2003164" font-size="120">
+        <g id="SCOUT" transform="translate(-8.000000, -22.000000)" fill="#FFFFFF">
+            <text>
+                <tspan x="7" y="104">SCOUT</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

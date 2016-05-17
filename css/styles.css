@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(to bottom, #432272, #200F3E);
+}
+
+#logo {
+  padding-top: 30%;
+  padding-bottom: 10%;
+}
+
+#logoText {
+  padding-bottom: 10%;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 7em;
+  color: white;
+  padding: 5% 0 10% 0;
+}
+
+.form-group {
+  padding: 10px 20% 5% 20%;
+
+}
+.form-control {
+  padding: 50px 0 50px 20px;
+  font-style: italic;
+  font-size: 3em;
+  border-radius: 50px;
+}
+
+.btn {
+  padding: 20px  220px 20px 220px;
+  border-radius: 70px;
+  font-size: 3em;
+  background: radial-gradient(50% 184%, #FFD200 0%, #F76B1C 100%);
+  border-radius: 61px;
+  color: #432272;
+
+}
+
+#forgotPass {
+  color: #fff;
+  font-size: 3em;
+}
+
+footer {
+  padding-top:32%;
+  font-size: 3em;
+  color: white;
+}
