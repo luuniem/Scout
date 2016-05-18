@@ -2,12 +2,14 @@ body {
   background: linear-gradient(to bottom, #432272, #200F3E);
 }
 
+
 #logo {
   padding-top: 30%;
   padding-bottom: 10%;
 }
 
 #logoText {
+  width: 600px;
   padding-bottom: 10%;
 }
 
@@ -36,7 +38,6 @@ h1 {
   background: radial-gradient(50% 184%, #FFD200 0%, #F76B1C 100%);
   border-radius: 61px;
   color: #432272;
-
 }
 
 #forgotPass {
