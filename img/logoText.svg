@@ -4,25 +4,7 @@
     <title>SCOUT</title>
     <desc>Created with Sketch.</desc>
     <defs>
-      <style>
-        #logoText {
-          stroke-dasharray: 500;
-          stroke-dashoffset: 200;
-          -webkit-animation: dash 2.5s linear forwards;
-          -o-animation: dash 2.5s linear forwards;
-          -moz-animation: dash 2.5s linear forwards;
-          animation: dash 2.5s linear forwards;
-        }
 
-        @-webkit-keyframes dash {
-          from {
-            stroke-dashoffset: 500;
-          }
-          to {
-            stroke-dashoffset: 0;
-          }
-        }
-      </style>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal" font-family="Phosphate-Inline, Phosphate" letter-spacing="32.2003164" font-size="120">
         <g id="SCOUT" transform="translate(-8.000000, -22.000000)" fill="#FFFFFF">
