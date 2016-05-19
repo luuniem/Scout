@@ -1,0 +1,15 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.settings {
+  h1 {
+    margin: 0px;
+    padding: 0px;
+  }
+  height: 100vh;
+}

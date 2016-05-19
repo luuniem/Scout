@@ -5,16 +5,18 @@ body {
   width: 1035px; }
 
 header {
+  padding-bottom: 3%;
   text-align: center;
   background-color: #200F3E;
-  color: white; }
-  header div h2 {
+  color: white;
+  font-family: 'Raleway', sans-serif; }
+  header h2 {
     padding-top: 5%;
-    padding-left: 20%;
+    padding-bottom: 3%;
     font-size: 3em; }
-  header div h3 {
+  header h3 {
     font-size: 2.5em;
-    padding-left: 20%; }
+    text-align: center; }
   header div img {
     padding-top: 35%;
     width: 50%; }
@@ -82,5 +84,27 @@ div img {
 
 .signUpbtn {
   padding-left: 10%; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.settings {
+  height: 100vh; }
+  .settings h1 {
+    margin: 0px;
+    padding: 0px; }
+
+footer {
+  width: 1050px;
+  background-color: #200F3E;
+  padding: 20px 0 10px 0; }
+  footer ul li {
+    display: inline-block;
+    width: 240px;
+    padding-left: 9%; }
 
 /*# sourceMappingURL=master.css.map */
