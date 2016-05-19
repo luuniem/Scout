@@ -49,6 +49,9 @@ header h3 {
     height: 310px;
     width: 307px; }
 
+#row4 {
+  padding-bottom: 5%; }
+
 .wrap {
   min-height: 100vh; }
 
