@@ -6,11 +6,9 @@ body {
   width: 1035px;
 }
 header {
-
   text-align: center;
   background-color: #200F3E;
   color: white;
-
   div {
     h2 {
       padding-top: 5%;
@@ -32,17 +30,14 @@ header {
 }
 
 .profileStatus {
-
   padding-top: 5%;
   padding-left: 5%;
-
   div {
     img {
       float: right;
     }
   }
   div {
-
     div {
       padding-top: 2%;
       padding-left: 5%;
@@ -61,8 +56,6 @@ header {
   }
   .editProfile {
     padding-left: 5%;
-
-
     div {
       p {
           margin: auto;
@@ -75,57 +68,9 @@ header {
       }
   }
 }
+
 hr {
   height: 1px;
   background-color: #200F3E;
   width: 95%;
-}
-
-/*******ADVENTURES*******/
-
-li {
-  list-style: none;
-}
-div {
-  div {
-    .leftList {
-
-    }
-    ul {
-      li {
-        span {
-          color: #FFA704;
-          padding-left: 45%;
-          font-size: 4em;
-          font-weight: bolder;
-          float: right;
-        }
-        h3 {
-          font-size: 2.5em;
-        }
-        p {
-          font-size: 2em;
-          float:left;
-        }
-        img {
-          width: 425px;
-        }
-      }
-    }
-  }
-}
-/******FOOTER NAV BAR*********/
-footer {
-
-  width: 1050px;
-  background-color: #200F3E;
-  padding: 20px 0 10px 0;
-    ul {
-      li {
-        display: inline-block;
-        width: 240px;
-        padding-left: 9%;
-
-    }
-  }
 }
