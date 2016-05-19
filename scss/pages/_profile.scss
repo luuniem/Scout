@@ -5,51 +5,46 @@
 body {
   width: 1035px;
 }
+
 header {
-
+  padding-bottom: 3%;
   text-align: center;
-  background-color: #200F3E;
+  background-color: $purple;
   color: white;
-
-  div {
-    h2 {
-      padding-top: 5%;
-      padding-left: 20%;
-      font-size: 3em;
-    }
-    h3 {
-      font-size: 2.5em;
-      padding-left: 20%;
-    }
+  font-family: 'Raleway', sans-serif;
+  h2 {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 4em;
   }
-  div {
-    img{
-      padding-top: 35%;
-      width: 50%;
-
+  h3 {
+    font-size: 2.5em;
+    text-align: center;
+  }
+div {
+  img {
+    padding-top: 35%;
+    width: 50%;
     }
   }
 }
 
 .profileStatus {
-
   padding-top: 5%;
   padding-left: 5%;
-
   div {
     img {
       float: right;
     }
   }
   div {
-
     div {
       padding-top: 2%;
       padding-left: 5%;
 
       p {
         text-align: center;
-        color: #200F3E;
+        color: $purple;
       }
       .ptsFriendsAd {
         font-size: 3em;
@@ -61,25 +56,25 @@ header {
   }
   .editProfile {
     padding-left: 5%;
-
-
     div {
       p {
           margin: auto;
-          border: 2px solid #FFA704;
+          border: 2px solid $gold;
           border-radius: 15px;
           font-size: 2.50em;
-          color: #FFA704;
+          color: $gold;
           padding: 5px 0px 5px 0px;
          }
       }
   }
 }
+
 hr {
   height: 1px;
-  background-color: #200F3E;
+  background-color: $purple;
   width: 95%;
 }
+<<<<<<< HEAD
 
 /*******ADVENTURES*******/
 
@@ -129,3 +124,5 @@ footer {
     }
   }
 }
+=======
+>>>>>>> master

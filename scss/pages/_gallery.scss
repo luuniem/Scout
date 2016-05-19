@@ -1,0 +1,54 @@
+header {
+  h3 {
+    padding-top: 30%;
+    padding-right: 55%;
+  }
+}
+
+.gallery {
+  height: 88vh;
+  overflow: auto;
+}
+
+.galleryView {
+  padding: 5%;
+  padding-bottom: 2%;
+  display: block;
+  margin: auto;
+  #biggestImg {
+    img {
+      padding-right: 5%;
+      padding-top: 0;
+      width: 650px;
+      height: 640px;
+    }
+  }
+  #verticalRow {
+    width: 322px;
+    float: right;
+    img {
+      padding-top: 0;
+      height: 320px;
+    }
+    img:first-child {
+      padding-bottom: 5%;
+      padding-right: 0;
+      padding-top: 0;
+      height: 320px;
+      width: 312px;
+    }
+  }
+}
+
+#row2, #row3, #row4 {
+  padding-top: 0;
+  img {
+    padding-top: 0;
+    height: 310px;
+    width: 307px;
+  }
+}
+
+#row4 {
+  padding-bottom: 5%;
+}
