@@ -1,0 +1,54 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.settings {
+  height: 100vh;
+  h1 {
+    margin: 0px;
+    padding: 0px;
+  }
+  .backgroundImg {
+    padding-bottom: 5%;
+    border-bottom: 2px solid $lineGrey;
+    img {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .settingsFeature {
+    padding: 3% 7% 0 9%;
+    text-align: center;
+    h3 {
+      color: $lineGrey;
+      text-align: left;
+      margin-bottom: 6%;
+    }
+    hr {
+      margin: 0;
+    }
+    img {
+      padding: 0;
+      float: left;
+    }
+  }
+  .privateAccount {
+    padding-bottom: 5%;
+    padding: 3% 7% 0 9%;
+    text-align: center;
+    h3 {
+      color: $purple;
+      text-align: left;
+      margin-bottom: 6%;
+      letter-spacing: 10px;
+    }
+    img {
+      padding: 0;
+      float: left;
+    }
+  }
+}
