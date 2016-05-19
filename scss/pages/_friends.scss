@@ -1,0 +1,21 @@
+.friendList {
+  list-style: none;
+  img{
+    width: 500px;
+  }
+}
+
+.unfollow {
+  list-style: none;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 15%;
+  li {
+    padding-bottom: 20%;
+  }
+  p {
+  border: 2px solid $gold;
+  border-radius: 25px;
+  color: $gold;
+  }
+}

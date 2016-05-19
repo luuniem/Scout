@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="css/master.css" media="screen" title="no title" charset="utf-8">
     <script type="text/javascript" src="js/jquery-1.12.3.js">
     </script>
+    <script type="text/javascript" src="js/scripts.js">
+
+    </script>
     <title>Friends</title>
   </head>
   <body>
-    <div class="wrap">
       <header class="row">
         <div class="col-sm-10">
           <h2>Penny's Friends</h2>
@@ -19,50 +21,65 @@
           <img src="img/iconSetting.png">
         </div>
       </header>
-      <div class="row profileRow">
-        <div class="profileStatus">
-          <div class="col-sm-3">
-            <img class="animated bounceInLeft"src="img/gracieProfile.png" alt="image of Gracie">
-          </div>
-          <div class="col-sm-9">
-            <div class="row top animated bounceInDown">
-              <div class="col-sm-3 ">
-                <p class="ptsFriendsAd">1,1898</p>
-                <p class="pointSubtitles">points</p>
-              </div>
-              <div class="col-sm-3">
-                <p class="ptsFriendsAd">89</p>
-                <p class="pointSubtitles">friends</p>
-              </div>
-              <div class="col-sm-4">
-                <p class="ptsFriendsAd">29</p>
-                <p class="pointSubtitles">adventures</p>
-              </div>
+      <div class="gallery">
+        <div class="row profileRow">
+          <div class="profileStatus">
+            <div class="col-sm-3">
+              <img class="animated bounceInLeft"src="img/gracieProfile.png" alt="image of Gracie">
             </div>
-            <div class="form-group animated bounceInUp">
-              <input type="text" class="form-control" id="name" placeholder="Search" >
+            <div class="col-sm-9">
+              <div class="row top animated bounceInDown">
+                <div class="col-sm-3 ">
+                  <p class="ptsFriendsAd">1,1898</p>
+                  <p class="pointSubtitles">points</p>
+                </div>
+                <div class="col-sm-3">
+                  <p class="ptsFriendsAd">89</p>
+                  <p class="pointSubtitles">friends</p>
+                </div>
+                <div class="col-sm-4">
+                  <p class="ptsFriendsAd">29</p>
+                  <p class="pointSubtitles">adventures</p>
+                </div>
+              </div>
+              <div class="form-group animated bounceInUp">
+                <input type="text" class="form-control" id="name" placeholder="Search" >
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <hr>
-      <div class="row locationList">
-        <div class="col-sm-6">
-          <ul class="leftList  animatedParent" data-appear-top-offset='-300'>
-            <li><img src="img/friends/alan.png" alt="alan"></li>
-            <li><img src="img/friends/albert.png" alt="albert"></li>
-            <li><img src="img/friends/denise.png" alt="denise"></li>
-            <li><img src="img/friends/Donna.png" alt="Donna"></li>
-            <li><img src="img/friends/kevin.png" alt="kevin"></li>
-            <li><img src="img/friends/lauren.png" alt="lauren"></li>
-            <li><img src="img/friends/lisa.png" alt="lisa"></li>
-            <li><img src="img/friends/Louis.png" alt="louis"></li>
-            <li><img src="img/friends/raymond.png" alt="raymond"></li>
-            <li><img src="img/friends/sara.png" alt="sara"></li>
-          </ul>
+        <hr>
+        <div class="row locationList">
+          <div class="col-sm-6">
+            <ul class="friendList  animated bounceInLeft">
+              <li id="un1"><img src="img/friends/alan.png" alt="alan"></li>
+              <li id="un2"><img src="img/friends/albert.png" alt="albert"></li>
+              <li id="un3"><img src="img/friends/denise.png" alt="denise"></li>
+              <li id="un4"><img src="img/friends/Donna.png" alt="Donna"></li>
+              <li id="un5"><img src="img/friends/kevin.png" alt="kevin"></li>
+              <li id="un6"><img src="img/friends/lauren.png" alt="lauren"></li>
+              <li id="un7"><img src="img/friends/lisa.png" alt="lisa"></li>
+              <li id="un8"><img src="img/friends/Louis.png" alt="louis"></li>
+              <li id="un9"><img src="img/friends/raymond.png" alt="raymond"></li>
+              <li id="un10"><img src="img/friends/sara.png" alt="sara"></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <ul class="unfollow animated bounceInRight">
+              <li id="unf1"><p>- unfollow</p></li>
+              <li id="unf2"><p>- unfollow</p></li>
+              <li id="unf3"><p>- unfollow</p></li>
+              <li id="unf4"><p>- unfollow</p></li>
+              <li id="unf5"><p>- unfollow</p></li>
+              <li id="unf6"><p>- unfollow</p></li>
+              <li id="unf7"><p>- unfollow</p></li>
+              <li id="unf8"><p>- unfollow</p></li>
+              <li id="unf9"><p>- unfollow</p></li>
+              <li id="unf10"><p>- unfollow</p></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
     <footer>
       <div  class="navbar navebar-fixed-bottom">
         <ul>

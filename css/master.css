@@ -52,9 +52,6 @@ header h3 {
 #row4 {
   padding-bottom: 5%; }
 
-.wrap {
-  min-height: 100vh; }
-
 body {
   width: 1035px; }
 
@@ -64,6 +61,8 @@ header {
   background-color: #200F3E;
   color: white;
   font-family: 'Raleway', sans-serif; }
+  header p {
+    font-size: 2em; }
   header h2 {
     padding-top: 5%;
     padding-bottom: 3%;
@@ -199,6 +198,11 @@ div img {
     padding-right: 10%;
     border-radius: 25px; }
 
+.leftList {
+  list-style: none; }
+  .leftList li img {
+    width: 430px; }
+
 .backArrow img {
   width: 5%;
   height: auto;
@@ -232,6 +236,23 @@ div img {
     letter-spacing: 0.86px; }
   .famousPlaceTitle img {
     padding-top: 0px; }
+
+.friendList {
+  list-style: none; }
+  .friendList img {
+    width: 500px; }
+
+.unfollow {
+  list-style: none;
+  text-align: center;
+  font-size: 3em;
+  padding-top: 15%; }
+  .unfollow li {
+    padding-bottom: 20%; }
+  .unfollow p {
+    border: 2px solid #FFA704;
+    border-radius: 25px;
+    color: #FFA704; }
 
 footer {
   width: 1050px;
