@@ -1,0 +1,45 @@
+.backArrow {
+
+  img{
+    width: 5%;
+    height: auto;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+  }
+}
+
+.gracieFamousPlace {
+  img {
+    padding-left: 10%;
+  }
+}
+.pennyP {
+  padding-top: 20%;
+  font-size: 4em;
+  color: #200F3E;
+}
+
+.famousPlaceTitle {
+  text-align: center;
+  h2 {
+    color: #200F3E;
+    letter-spacing: 0.86px;
+  }
+  h1 {
+    font-size: 7em;
+    /* Famous Places: */
+    color: #200F3E;
+    letter-spacing: 2.23px;
+    text-shadow: 0px 1px 4px rgba(0,0,0,0.50);
+  }
+  p {
+    /* 66  POINTS: */
+font-family: Helvetica-Light;
+font-size: 2em;
+color: #200F3E;
+letter-spacing: 0.86px;
+  }
+  img{
+    padding-top: 0px;
+  }
+}
