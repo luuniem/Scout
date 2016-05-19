@@ -1,3 +1,16 @@
+.settingsFeature h3 {
+  font-size: 5em;
+  font-family: 'Raleway', sans-serif; }
+
+.privateAccount h3 {
+  font-size: 3em;
+  margin-bottom: 15%;
+  font-family: 'Raleway', sans-serif; }
+
+.settingsBtns .btn {
+  font-size: 3.3em;
+  color: #200F3E; }
+
 .wrap {
   min-height: 100vh; }
 
@@ -13,7 +26,7 @@ header {
   header h2 {
     padding-top: 5%;
     padding-bottom: 3%;
-    font-size: 3em; }
+    font-size: 4em; }
   header h3 {
     font-size: 2.5em;
     text-align: center; }
@@ -97,6 +110,36 @@ div img {
   .settings h1 {
     margin: 0px;
     padding: 0px; }
+  .settings .backgroundImg {
+    padding-bottom: 5%;
+    border-bottom: 2px solid #9B9B9B; }
+    .settings .backgroundImg img {
+      width: 100%;
+      padding: 0; }
+  .settings .settingsFeature {
+    padding: 3% 7% 0 9%;
+    text-align: center; }
+    .settings .settingsFeature h3 {
+      color: #9B9B9B;
+      text-align: left;
+      margin-bottom: 6%; }
+    .settings .settingsFeature hr {
+      margin: 0; }
+    .settings .settingsFeature img {
+      padding: 0;
+      float: left; }
+  .settings .privateAccount {
+    padding-bottom: 5%;
+    padding: 3% 7% 0 9%;
+    text-align: center; }
+    .settings .privateAccount h3 {
+      color: #200F3E;
+      text-align: left;
+      margin-bottom: 6%;
+      letter-spacing: 10px; }
+    .settings .privateAccount img {
+      padding: 0;
+      float: left; }
 
 footer {
   width: 1050px;
@@ -106,5 +149,17 @@ footer {
     display: inline-block;
     width: 240px;
     padding-left: 9%; }
+
+.settingsBtns {
+  padding: 10%; }
+  .settingsBtns .btn {
+    border: 5px solid #200F3E;
+    background: white;
+    padding: 7% 15%;
+    border-radius: 80px;
+    float: left; }
+  .settingsBtns #deleteAccount {
+    background: #200F3E;
+    color: white; }
 
 /*# sourceMappingURL=master.css.map */
