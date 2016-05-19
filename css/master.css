@@ -11,6 +11,44 @@
   font-size: 3.3em;
   color: #200F3E; }
 
+header h3 {
+  padding-top: 30%;
+  padding-right: 55%; }
+
+.gallery {
+  height: 88vh;
+  overflow: auto; }
+
+.galleryView {
+  padding: 5%;
+  padding-bottom: 2%;
+  display: block;
+  margin: auto; }
+  .galleryView #biggestImg img {
+    padding-right: 5%;
+    padding-top: 0;
+    width: 650px;
+    height: 640px; }
+  .galleryView #verticalRow {
+    width: 322px;
+    float: right; }
+    .galleryView #verticalRow img {
+      padding-top: 0;
+      height: 320px; }
+    .galleryView #verticalRow img:first-child {
+      padding-bottom: 5%;
+      padding-right: 0;
+      padding-top: 0;
+      height: 320px;
+      width: 312px; }
+
+#row2, #row3, #row4 {
+  padding-top: 0; }
+  #row2 img, #row3 img, #row4 img {
+    padding-top: 0;
+    height: 310px;
+    width: 307px; }
+
 .wrap {
   min-height: 100vh; }
 
