@@ -1,84 +1,257 @@
-/*
-Error: Invalid CSS after ">>>>>>> master": expected "{", was ""
-        on line 129 of scss/pages/_profile.scss
-        from line 3 of scss/pages/_index.scss
-        from line 4 of scss/master.scss
+.settingsFeature h3 {
+  font-size: 5em;
+  font-family: 'Raleway', sans-serif; }
 
-124:     }
-125:   }
-126: }
-127: =======
-128: >>>>>>> master
+.privateAccount h3 {
+  font-size: 3em;
+  margin-bottom: 15%;
+  font-family: 'Raleway', sans-serif; }
 
-Backtrace:
-scss/pages/_profile.scss:129
-scss/pages/_index.scss:3
-scss/master.scss:4
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1179:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1115:in `expected'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:1110:in `tok!'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:654:in `block'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:647:in `ruleset'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:673:in `block_child'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:666:in `block_contents'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:123:in `stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/scss/parser.rb:39:in `parse'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/engine.rb:403:in `_to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/engine.rb:309:in `to_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:326:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `block in with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:88:in `with_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:471:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.21/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \">>>>>>> master\": expected \"{\", was \"\"\A         on line 129 of scss/pages/_profile.scss\A         from line 3 of scss/pages/_index.scss\A         from line 4 of scss/master.scss\A \A 124:     }\A 125:   }\A 126: }\A 127: =======\A 128: >>>>>>> master"; }
+.settingsBtns .btn {
+  font-size: 3.3em;
+  color: #200F3E; }
+
+header h3 {
+  padding-top: 30%;
+  padding-right: 55%; }
+
+.gallery {
+  height: 88vh;
+  overflow: auto; }
+
+.galleryView {
+  padding: 5%;
+  padding-bottom: 2%;
+  display: block;
+  margin: auto; }
+  .galleryView #biggestImg img {
+    padding-right: 5%;
+    padding-top: 0;
+    width: 650px;
+    height: 640px; }
+  .galleryView #verticalRow {
+    width: 322px;
+    float: right; }
+    .galleryView #verticalRow img {
+      padding-top: 0;
+      height: 320px; }
+    .galleryView #verticalRow img:first-child {
+      padding-bottom: 5%;
+      padding-right: 0;
+      padding-top: 0;
+      height: 320px;
+      width: 312px; }
+
+#row2, #row3, #row4 {
+  padding-top: 0; }
+  #row2 img, #row3 img, #row4 img {
+    padding-top: 0;
+    height: 310px;
+    width: 307px; }
+
+#row4 {
+  padding-bottom: 5%; }
+
+.wrap {
+  min-height: 100vh; }
+
+body {
+  width: 1035px; }
+
+header {
+  padding-bottom: 3%;
+  text-align: center;
+  background-color: #200F3E;
+  color: white;
+  font-family: 'Raleway', sans-serif; }
+  header h2 {
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-size: 4em; }
+  header h3 {
+    font-size: 2.5em;
+    text-align: center; }
+  header div img {
+    padding-top: 35%;
+    width: 50%; }
+
+.profileStatus {
+  padding-top: 5%;
+  padding-left: 5%; }
+  .profileStatus div img {
+    float: right; }
+  .profileStatus div div {
+    padding-top: 2%;
+    padding-left: 5%; }
+    .profileStatus div div p {
+      text-align: center;
+      color: #200F3E; }
+    .profileStatus div div .ptsFriendsAd {
+      font-size: 3em; }
+    .profileStatus div div .pointSubtitles {
+      font-size: 2.25em; }
+  .profileStatus .editProfile {
+    padding-left: 5%; }
+    .profileStatus .editProfile div p {
+      margin: auto;
+      border: 2px solid #FFA704;
+      border-radius: 15px;
+      font-size: 2.50em;
+      color: #FFA704;
+      padding: 5px 0px 5px 0px; }
+
+hr {
+  height: 1px;
+  background-color: #200F3E;
+  width: 95%; }
+
+div img {
+  padding-top: 10%; }
+
+#logoSignUp {
+  width: 320px;
+  padding-left: 8%; }
+
+#logoTextSignUp {
+  width: 550px;
+  padding-left: 4%; }
+
+.signUpForm {
+  padding-top: 20%; }
+
+.form-group {
+  padding: 10px 10% 5% 10%; }
+
+.form-control {
+  padding: 50px 0 50px 20px;
+  font-style: italic;
+  font-size: 3em;
+  border-radius: 50px; }
+
+.signUp {
+  padding: 20px  35% 20px 35%;
+  border-radius: 70px;
+  font-size: 3em;
+  background: radial-gradient(50% 184%, #FFD200 0%, #F76B1C 100%);
+  border-radius: 61px;
+  color: #432272; }
+
+.signUpbtn {
+  padding-left: 10%; }
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.settings {
+  height: 100vh; }
+  .settings h1 {
+    margin: 0px;
+    padding: 0px; }
+  .settings .backgroundImg {
+    padding-bottom: 5%;
+    border-bottom: 2px solid #9B9B9B; }
+    .settings .backgroundImg img {
+      width: 100%;
+      padding: 0; }
+  .settings .settingsFeature {
+    padding: 3% 7% 0 9%;
+    text-align: center; }
+    .settings .settingsFeature h3 {
+      color: #9B9B9B;
+      text-align: left;
+      margin-bottom: 6%; }
+    .settings .settingsFeature hr {
+      margin: 0; }
+    .settings .settingsFeature img {
+      padding: 0;
+      float: left; }
+  .settings .privateAccount {
+    padding-bottom: 5%;
+    padding: 3% 7% 0 9%;
+    text-align: center; }
+    .settings .privateAccount h3 {
+      color: #200F3E;
+      text-align: left;
+      margin-bottom: 6%;
+      letter-spacing: 10px; }
+    .settings .privateAccount img {
+      padding: 0;
+      float: left; }
+
+.adventureTitle {
+  padding-bottom: 7%; }
+
+.rightListInfo {
+  padding-top: 10%;
+  padding-bottom: 10%;
+  color: #200F3E; }
+  .rightListInfo h3 {
+    font-size: 3em; }
+  .rightListInfo p {
+    font-size: 2.5em; }
+  .rightListInfo span {
+    border: 2px solid #FFA704;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 25px; }
+
+.backArrow img {
+  width: 5%;
+  height: auto;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%; }
+
+.gracieFamousPlace img {
+  padding-left: 10%; }
+
+.pennyP {
+  padding-top: 20%;
+  font-size: 4em;
+  color: #200F3E; }
+
+.famousPlaceTitle {
+  text-align: center; }
+  .famousPlaceTitle h2 {
+    color: #200F3E;
+    letter-spacing: 0.86px; }
+  .famousPlaceTitle h1 {
+    font-size: 7em;
+    /* Famous Places: */
+    color: #200F3E;
+    letter-spacing: 2.23px;
+    text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5); }
+  .famousPlaceTitle p {
+    /* 66  POINTS: */
+    font-family: Helvetica-Light;
+    font-size: 2em;
+    color: #200F3E;
+    letter-spacing: 0.86px; }
+  .famousPlaceTitle img {
+    padding-top: 0px; }
+
+footer {
+  width: 1050px;
+  background-color: #200F3E;
+  padding: 20px 0 10px 0; }
+  footer ul li {
+    display: inline-block;
+    width: 240px;
+    padding-left: 9%; }
+
+.settingsBtns {
+  padding: 10%; }
+  .settingsBtns .btn {
+    border: 5px solid #200F3E;
+    background: white;
+    padding: 7% 15%;
+    border-radius: 80px;
+    float: left; }
+  .settingsBtns #deleteAccount {
+    background: #200F3E;
+    color: white; }
+
+/*# sourceMappingURL=master.css.map */
