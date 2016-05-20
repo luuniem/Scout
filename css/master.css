@@ -346,6 +346,11 @@ hr {
     border-radius: 70px;
     opacity: .78; }
 
+.topBar {
+  width: 100vw; }
+  .topBar img {
+    padding: 0; }
+
 footer {
   width: 1050px;
   background-color: #200F3E;
