@@ -52,11 +52,56 @@ header h3 {
 #row4 {
   padding-bottom: 5%; }
 
+.adventureTitle {
+  padding-top: 8%;
+  color: #200F3E;
+  text-align: center; }
+  .adventureTitle h1 {
+    font-size: 8em; }
+
+.buttonsLocation img {
+  width: 80%;
+  padding-bottom: 7%; }
+
+.currentLocation {
+  padding-top: 10%;
+  padding-bottom: 5%; }
+  .currentLocation a {
+    color: #200F3E; }
+  .currentLocation button {
+    font-size: 3.75em;
+    padding: 20px 18% 20px 18%;
+    border: 5px solid #200F3E;
+    background-color: #FFF;
+    border-radius: 70px; }
+
+.categories {
+  padding-bottom: 5%; }
+  .categories a {
+    color: #200F3E; }
+  .categories button {
+    font-size: 3.75em;
+    padding: 20px 25% 20px 25%;
+    border: 5px solid #200F3E;
+    background-color: #FFF;
+    border-radius: 70px; }
+
+.startAdventure {
+  padding-bottom: 34%; }
+  .startAdventure a {
+    color: #FFF; }
+  .startAdventure button {
+    font-size: 3.75em;
+    padding: 25px 21% 25px 21%;
+    border: 5px solid #fff;
+    background-image: radial-gradient(50% 184%, #FFD200 0%, #F76B1C 100%);
+    border-radius: 70px; }
+
 body {
   width: 1035px; }
 
 header {
-  padding-bottom: 3%;
+  padding-bottom: 1%;
   text-align: center;
   background-color: #200F3E;
   color: white;
@@ -104,7 +149,7 @@ hr {
   background-color: #200F3E;
   width: 95%; }
 
-div img {
+.logoSignUp img {
   padding-top: 10%; }
 
 #logoSignUp {
@@ -182,7 +227,8 @@ div img {
       float: left; }
 
 .adventureTitle {
-  padding-bottom: 7%; }
+  padding-top: 5%;
+  color: #fff; }
 
 .rightListInfo {
   padding-top: 10%;
@@ -201,16 +247,16 @@ div img {
 .leftList {
   list-style: none; }
   .leftList li img {
-    width: 430px; }
+    width: 430px;
+    padding-top: 10%; }
 
-.backArrow img {
-  width: 5%;
-  height: auto;
-  padding-top: 2.5%;
-  padding-bottom: 2.5%; }
+.settingIcon {
+  padding-top: 1%; }
 
 .gracieFamousPlace img {
-  padding-left: 10%; }
+  padding-top: 10%;
+  padding-left: 10%;
+  padding-bottom: 10%; }
 
 .pennyP {
   padding-top: 20%;
@@ -237,10 +283,14 @@ div img {
   .famousPlaceTitle img {
     padding-top: 0px; }
 
+.baricons {
+  padding-top: 2%; }
+
 .friendList {
   list-style: none; }
   .friendList img {
-    width: 500px; }
+    width: 500px;
+    padding-top: 10%; }
 
 .unfollow {
   list-style: none;
@@ -253,6 +303,48 @@ div img {
     border: 2px solid #FFA704;
     border-radius: 25px;
     color: #FFA704; }
+
+#zipCode {
+  text-align: center;
+  font-size: 3em;
+  padding: 8% 10% 8% 10%;
+  border: 5px solid #200F3E;
+  border-radius: 61px; }
+
+.centerImage img {
+  width: 700px; }
+
+.submitBtn {
+  padding-bottom: 10%; }
+
+.submitBtn {
+  padding-bottom: 17%; }
+  .submitBtn a {
+    color: #FFF; }
+  .submitBtn button {
+    font-size: 3.75em;
+    padding: 25px 21% 25px 21%;
+    border: 5px solid #fff;
+    background-image: radial-gradient(50% 184%, #FFD200 0%, #F76B1C 100%);
+    border-radius: 70px; }
+
+.new h1 {
+  font-size: 5em;
+  text-align: center; }
+
+.catBtn {
+  padding-bottom: 2%; }
+  .catBtn a {
+    color: #FFF;
+    padding-left: 11%; }
+  .catBtn button {
+    font-size: 3.75em;
+    width: 900px;
+    padding: 25px 10% 25px 5%;
+    border: 5px solid #fff;
+    background-color: #200F3E;
+    border-radius: 70px;
+    opacity: .78; }
 
 footer {
   width: 1050px;

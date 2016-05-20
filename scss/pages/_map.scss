@@ -1,0 +1,32 @@
+#zipCode {
+  text-align: center;
+  font-size: 3em;
+  padding: 8% 10% 8% 10%;
+  border: 5px solid $purple;
+  border-radius: 61px;
+}
+
+.centerImage {
+  img {
+    width: 700px;
+  }
+}
+
+.submitBtn {
+  padding-bottom: 10%;
+}
+
+.submitBtn {
+    padding-bottom: 17%;
+    a {
+          color: #FFF;
+    }
+  button {
+    font-size: 3.75em;
+    padding: 25px 21% 25px 21%;
+    border: 5px solid #fff;
+    background-image: radial-gradient(50% 184%, #FFD200 0%, #F76B1C 100%);
+    border-radius: 70px;
+
+  }
+}

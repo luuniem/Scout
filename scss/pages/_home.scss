@@ -1,0 +1,61 @@
+.adventureTitle {
+  padding-top: 8%;
+  color: $purple;
+  text-align: center;
+  h1 {
+    font-size: 8em;
+  }
+}
+
+.buttonsLocation {
+  img {
+    width: 80%;
+    padding-bottom: 7%;
+  }
+}
+
+.currentLocation {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  a {
+    color: $purple;
+  }
+  button {
+    font-size: 3.75em;
+    padding: 20px 18% 20px 18%;
+    border: 5px solid $purple;
+    background-color: #FFF;
+    border-radius: 70px;
+
+  }
+}
+
+.categories {
+  padding-bottom: 5%;
+  a {
+    color: $purple;
+  }
+  button {
+    font-size: 3.75em;
+    padding: 20px 25% 20px 25%;
+    border: 5px solid $purple;
+    background-color: #FFF;
+    border-radius: 70px;
+
+  }
+}
+
+.startAdventure {
+    padding-bottom: 34%;
+    a {
+          color: #FFF;
+    }
+  button {
+    font-size: 3.75em;
+    padding: 25px 21% 25px 21%;
+    border: 5px solid #fff;
+    background-image: radial-gradient(50% 184%, #FFD200 0%, #F76B1C 100%);
+    border-radius: 70px;
+
+  }
+}
