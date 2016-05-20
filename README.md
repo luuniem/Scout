@@ -1,9 +1,9 @@
 # Scout
 
 ## Description
-This is a simple web application prototype for a mobile application aimed at getting people out of the house.
+This is a simple web application prototype for a mobile application aimed at getting people out of the house. Check out our work in progress at luuniem.github.io/Scout/LogIn.html
 
-### Created By
+### Created Byß
 ##### Hillary Hintzen, Lindsey Raffa, Niem Nguyen, Pablo Vera, Gracie Lundell, and Jon Sweeney
 
 ## Getting Started
@@ -14,6 +14,7 @@ This is a simple web application prototype for a mobile application aimed at get
 
 ## Built with
 Atom
+html/css/javascript
 
 ### License and Copyright
 
